@@ -34,6 +34,7 @@ class ProductListView(ListView):
         request: HttpRequest = self.request
         start_price = request.GET.get('start_price')
         end_price = request.GET.get('end_price')
+
         if start_price is not None:
             query = query.filter(price__gte=start_price)
 
