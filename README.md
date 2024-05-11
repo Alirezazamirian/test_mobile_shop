@@ -2,21 +2,17 @@
 an e-commerce website which was deployed on python anywhere to be shown as a test website in case of pruchasing.
 
 
-Ordered
+Steps
 
 1. create your venv and activate it.
 2. install all the requirements.
-3. create super user for admin panel.
-4. create some data in admin panel.
-5. run the ptoject.
+3. create super user for admin panel to insert data.
+4. run the ptoject.
 
 
 # Code
 
-Inline `code`
-
-Indented code
-
+## create venv
     
     python -m venv venv
     
@@ -41,19 +37,7 @@ then you will be wanted to choose the username and email and password(you can se
 
 ## run the project via the code below in terminal then on url bar set : localhost:8000/admin/
 
-        python manage.py runserver
+    python manage.py runserver
 
 
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
+<h4 align="center">enjoy the project and customize it as you want <img src="https://github.com/Alirezazamirian/test_mobile_shop/blob/main/icons8-smile-24.png"><br>Do not forget to leave star<img src="https://github.com/Alirezazamirian/test_mobile_shop/blob/main/icons8-star-24.png"></h4>
