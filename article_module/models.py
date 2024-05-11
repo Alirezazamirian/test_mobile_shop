@@ -55,3 +55,6 @@ class ArticleComment(models.Model):
     class Meta:
         verbose_name = 'نظر مقاله'
         verbose_name_plural = 'نظرات مقاله'
+
+
+

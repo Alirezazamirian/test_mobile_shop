@@ -39,7 +39,6 @@ class ArticleDetailView(DetailView):
         context['comments_count'] = ArticleComment.objects.filter(article_id=article.id).count()
         return context
 
-
 def article_categories_component(request: HttpRequest):
     article_main_categories = ArticleCategory.objects.prefetch_related('articlecategory_set').filter(is_active=True, parent_id=None)
 
