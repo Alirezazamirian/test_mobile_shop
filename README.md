@@ -11,7 +11,7 @@ Ordered
 5. run the ptoject.
 
 
-## Code
+# Code
 
 Inline `code`
 
@@ -22,24 +22,26 @@ Indented code
     
 NOTE : the second venv can be named anything as you want
 
-# activate venv
+## activate venv
 choose your directory which your venv is located then open terminal and write the code below :
 
     venv/Scripts/activate
 
-# install the requirements
+## install the requirements
 change the directory where the project and req.txt file has been located then write the code below :
 
     pip install -r req.txt
 
-# create super user
+## create super user
 create the user to have an access to admin panel :
 
     python manage.py createsuperuser
 
 then you will be wanted to choose the username and email and password(you can set email empty).
 
-# connect the project to a databse
+## run the project via the code below in terminal then on url bar set : localhost:8000/admin/
+
+        python manage.py runserver
 
 
 ```
