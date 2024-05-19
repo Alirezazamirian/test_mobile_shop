@@ -7,7 +7,7 @@ Steps
 1. create your venv and activate it.
 2. install all the requirements.
 3. create super user for admin panel to insert data.
-4. run the ptoject.
+4. run the project.
 
 
 # Code
